@@ -7,7 +7,7 @@ header {
   gap: var(--space-1) var(--space-3);
   background-color: var(--color-header);
   color: var(--color-white);
-  padding: var(--space-2) var(--space-3);
+  padding: var(--space-2-5) var(--space-3);
 }
 
 header h1 {
