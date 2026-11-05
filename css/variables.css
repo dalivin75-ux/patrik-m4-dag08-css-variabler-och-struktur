@@ -1,0 +1,38 @@
+/* Design tokens for color, typography, spacing, and corners. */
+:root {
+  --color-primary: #8c1010;
+  --color-primary-hover: #6f0c0c;
+  --color-text: #222222;
+  --color-background: #fffaf3;
+  --color-surface: #ffffff;
+  --color-border: #e3d5c3;
+  --color-header: #5b3a29;
+  --color-heading: #3b2418;
+  --color-footer: #2b1c14;
+  --color-hero: #f3e3cf;
+  --color-focus: #1a73e8;
+  --color-field-border: #8a7a6a;
+  --color-link-hover: #fce9e9;
+  --color-white: #ffffff;
+
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-heading: Georgia, "Times New Roman", serif;
+
+  --space-0-5: 4px;
+  --space-1: 8px;
+  --space-1-5: 12px;
+  --space-2: 16px;
+  --space-2-5: 20px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-7: 56px;
+  --space-input-block: 10px;
+  --space-underline-offset: 3px;
+  --space-focus-offset: 2px;
+
+  --radius-small: 4px;
+  --radius-medium: 6px;
+  --radius-large: 8px;
+}

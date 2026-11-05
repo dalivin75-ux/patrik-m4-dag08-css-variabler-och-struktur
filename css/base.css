@@ -1,0 +1,55 @@
+/* Reset, global typography, headings, links, and address defaults. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  color: var(--color-heading);
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0 0 var(--space-2);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: var(--space-1-5) 0 var(--space-1);
+}
+
+a {
+  color: var(--color-primary);
+  text-underline-offset: var(--space-underline-offset);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: var(--space-focus-offset);
+}
+
+address {
+  font-style: normal;
+}
